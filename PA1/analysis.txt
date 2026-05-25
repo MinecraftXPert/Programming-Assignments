@@ -1,0 +1,8 @@
+Runtime for sorted arrays.
+
+The way to solve the 2 sum problem with a sorted array is quite simple: you'd use the
+2 tracker method. You'd have an i and j tracker and if arr[i] + arr[j] = target, we found a match, otherwise continue on. With this method, we are only going through n items 1 time, which means the runtime would just be O(n). The only problem is that this only works on sorted arrays so we'd need another method for unsorted.
+
+Runtime for unsorted arrays.
+
+With unsorted arrays, we could use a hashset. What we'll do is create an empty hashset. Then we'll get the complement of the current number we're looping over (target - current number) and check if that number is in the hashset. If it's not, add that number to the hashset. Otherwise, we've found our number. We're going over n items in an array 1 time, and inserting items into a hashset is only O(n) time, and looking up is only O(1) time (since all we're doing is looking), therefore the final Big Oh time is just O(n).
