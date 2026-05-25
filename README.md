@@ -31,13 +31,14 @@ For each test case, output a line with one of the following two formats:
 `Test case m: No way you can spend exactly X points. `
 **where m (1 ≤ m ≤ k), represents the appropriate test case. In the output n1 also must be less than n2**
 Example output for the above inputs: 
-`Test case#1: Spend 14 points by playing the games with 5 points and 9 points. `
-`Test case#2: No way you can spend exactly 11 points. `
-`Test case#3: Spend 16 points by playing the games with 6 points and 10 points. `
-`Test case#4: Spend 16 points by playing the games with 6 points and 10 points. `
+* `Test case#1: Spend 14 points by playing the games with 5 points and 9 points. `
+* `Test case#2: No way you can spend exactly 11 points. `
+* `Test case#3: Spend 16 points by playing the games with 6 points and 10 points. `
+* `Test case#4: Spend 16 points by playing the games with 6 points and 10 points. `
  
  
 ***<u><p style="font-size: 15px;">Specific Restrictions:</u>***
+
 Your code must incorporate the following restrictions to receive full credit: 
 1.	If you see that a particular test case is sorted (sorted status = 1), your code must process it with O(n) operation to receive more than 50% credit on this part. For this part of the implementation, you are not allowed to use Hashset. 
 2.	For finding the pair in the sorted array, you must implement the following function: 
